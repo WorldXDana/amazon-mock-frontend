@@ -26,7 +26,7 @@ function RightSide(props) {
     <div className='RightSide'>
         {   
             listOfProduct.map ( (item) =>(
-                <Product image={item.image} name={item.name} price={item.price} />
+                <Product definition={item} />
             ))
         }
     </div>
